@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet"  href="css/styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="contenedor1">
+            <h1>Calculadora</h1>
+            <h3>Ingresa dos números</h3>
+
+            <label class="margen" for="numero1">Número uno</label>
+            <br>
+            <input type="number" id="numero1">
+
+            <br>
+            <label class="margen" for="numero2">Número dos</label>
+            <br>
+            <input type="number" id="numero2">
+            <br>
+            <button type="submit" onclick="operaciones()">Calcular</button>
+        </div>
+
+        <div id="contenedor2"></div>
+    </body>
+
+    <script src="js/operaciones.js"></script>
+</html>

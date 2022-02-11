@@ -52,7 +52,7 @@ img {
     background-color: rgb(143, 143, 240);
 }
 
-button {
+#botoncito {
     float: left;
     margin-top: 15px;
     margin-left: 44px;
@@ -65,8 +65,39 @@ button {
     color: inherit;
 }
 
+.botones {
+    float: left;
+    margin-top: 90px;
+    margin-left: 44px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    background: #506666;
+    border-radius: 5px;
+    padding: 13px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+
 button:hover{
     cursor: pointer;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-    background-color: rgb(143, 143, 240);
+    background-color: rgb(89, 89, 129);   
+    
 }
+
+button[disabled=disabled], button:disabled {
+    cursor: no-drop;
+    color:#fff;
+    border-color: #a0a0a0;
+    background-color: #a0a0a0;
+    box-shadow: none;
+}
+
+#contenerdor-botones {
+    float: left;
+}
+
+
+
